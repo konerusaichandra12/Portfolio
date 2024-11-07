@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio CHANDRA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/77675afdc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Frontend Designer</p>
+        <h1>Hi, I'm <span>Darla Sandeep</span>, B.Tech <br>student specialized in <br>Data Science.</h1>
+    </div>
+</div>
+<!--- ------------about------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Darla Sandeep, a final-year B.Tech student specializing in Data Science. Over the course of my degree, I have developed a solid foundation in data analytics, machine learning, statistics, and artificial intelligence. I am proficient in Python, R, SQL, and have hands-on experience with tools such as TensorFlow, Scikit-learn, Pandas, and data visualization platforms like Tableau and Power BI.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Analyst</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>E-Commerce Web Application</li>
+                        <li><span>App Development</span><br>Build Andriod/IOS App regarding Online Auctions.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Intership   2021</span><br>AICTE AWS Acedamy</li>
+                        <li><span>Co-op Internship</span><br>intern as software Engineer at BOSCH</li>
+                        <li><span>Certifications</span><br>IBM Python, Oracle, RPA Essential, Google Cloud platform</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Current   2024</span><br>DataScience Training at KL University</li>
+                        <li><span>Intermidiate   2021</span><br>SRI CHAITANYA JUNIOR COLLAGE , Tirupati,  Percentage: 83 % </li>
+                        <li><span>Co-op Internship</span><br>Sri Sai Vidyalaya High School, Rajampet,  Percentage: 92 %</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>            
+        </div>
+    </div>
+</div>
+<!--    portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>Online Budding App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See More</a>
+    </div>
+</div>
+<!--- -------contact ---------- -->
+<div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i>  darlasunny26@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> +91 9652286824</p>
+          <div class="social-icons">
+            <a href="https://youtu.be/j2ujTm4g6H4?si=nCGw039izW3PJLvc"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/sandeep-159/" ><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/mr_.sunny.___/?next=%2F" ><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sandeep-darla-36a93225b/" ><i class="fab fa-linkedin"></i></a>
+          </div>
+          <a href="images/chandra Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit"class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sandeep Darla. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+      </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyTYMRJcOtI1kWOR6N7NDULrQ9S-a3V9YCvD5a1w0rovIlZmeBr2zHdfx6cUnkODnuNMA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
